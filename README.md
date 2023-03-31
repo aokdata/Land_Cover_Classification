@@ -5,7 +5,7 @@ A deep learning (neural network) land cover classification project using satelli
 ```
 ├── data
 ├── .gitignore
-├── README.md
 ├── Land_Cover_Classification_Notebook.ipynb
+├── README.md
 └── presentation.pdf (NOT YET UPLOADED)
 ```
