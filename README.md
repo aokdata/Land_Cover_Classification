@@ -39,10 +39,10 @@ I would recommend to use this land cover classifier tool on images of the same l
 Next, I would like to incorporate object detection into this project to help classify multiple areas of land cover within a singular image.
 
 ## Repository Structure
-
-├── [data](https://github.com/aokdata/Land_Cover_Classification/tree/main/data)<br>
-├── [.gitignore](https://github.com/aokdata/Land_Cover_Classification/blob/main/.gitignore)<br>
-├── [Land_Cover_Classification_Notebook.ipynb](https://github.com/aokdata/Land_Cover_Classification/blob/main/Land_Cover_Classification_Notebook.ipynb)<br>
-├── [README.md](https://github.com/aokdata/Land_Cover_Classification)<br>
-└── presentation.pdf (NOT YET UPLOADED)
+<br>
+├── [data](https://github.com/aokdata/Land_Cover_Classification/tree/main/data) <br>
+├── [.gitignore](https://github.com/aokdata/Land_Cover_Classification/blob/main/.gitignore) <br>
+├── [Land_Cover_Classification_Notebook.ipynb](https://github.com/aokdata/Land_Cover_Classification/blob/main/Land_Cover_Classification_Notebook.ipynb) <br>
+├── [README.md](https://github.com/aokdata/Land_Cover_Classification) <br>
+└── presentation.pdf (NOT YET UPLOADED) <br>
 
