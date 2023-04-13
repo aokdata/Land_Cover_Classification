@@ -40,9 +40,9 @@ Next, I would like to incorporate object detection into this project to help cla
 
 ## Repository Structure
 
-├── [data](https://github.com/aokdata/Land_Cover_Classification/tree/main/data)
-├── [.gitignore](https://github.com/aokdata/Land_Cover_Classification/blob/main/.gitignore)
-├── [Land_Cover_Classification_Notebook.ipynb](https://github.com/aokdata/Land_Cover_Classification/blob/main/Land_Cover_Classification_Notebook.ipynb)
-├── [README.md](https://github.com/aokdata/Land_Cover_Classification)
+├── [data](https://github.com/aokdata/Land_Cover_Classification/tree/main/data)<br>
+├── [.gitignore](https://github.com/aokdata/Land_Cover_Classification/blob/main/.gitignore)<br>
+├── [Land_Cover_Classification_Notebook.ipynb](https://github.com/aokdata/Land_Cover_Classification/blob/main/Land_Cover_Classification_Notebook.ipynb)<br>
+├── [README.md](https://github.com/aokdata/Land_Cover_Classification)<br>
 └── presentation.pdf (NOT YET UPLOADED)
 
