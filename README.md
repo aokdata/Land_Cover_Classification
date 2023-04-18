@@ -56,10 +56,9 @@ Next, I would like to incorporate object detection into this project to help cla
 [2] Introducing EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification. Patrick Helber, Benjamin Bischke, Andreas Dengel. 2018 IEEE International Geoscience and Remote Sensing Symposium, 2018.
 
 ## Repository Structure
-<br>
-├── [data] (https://github.com/aokdata/Land_Cover_Classification/tree/main/data) <br>
-├── [.gitignore] (https://github.com/aokdata/Land_Cover_Classification/blob/main/.gitignore) <br>
-├── [Land_Cover_Classification_Notebook.ipynb] (https://github.com/aokdata/Land_Cover_Classification/blob/main/Land_Cover_Classification_Notebook.ipynb) <br>
-├── [README.md] (https://github.com/aokdata/Land_Cover_Classification) <br>
-└── presentation.pdf (NOT YET UPLOADED) <br>
+├── [data](https://github.com/aokdata/Land_Cover_Classification/tree/main/data)<br>
+├── [.gitignore](https://github.com/aokdata/Land_Cover_Classification/blob/main/.gitignore)<br>
+├── [Land_Cover_Classification_Notebook.ipynb](https://github.com/aokdata/Land_Cover_Classification/blob/main/Land_Cover_Classification_Notebook.ipynb)<br>
+├── [README.md](https://github.com/aokdata/Land_Cover_Classification)<br>
+└── [presentation.pdf](NOT YET UPLOADED)<br>
 
