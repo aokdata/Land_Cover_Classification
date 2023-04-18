@@ -13,7 +13,7 @@ The Nature Conservancy (TNC) is looking to help protect wildlife migration corri
 In order to help them find where to focus their efforts, we want to build Land Cover Classifier so that TNC can monitor deforestation using satellite images to observe if land starts changing from forest or vegetation to another class.
 
 ## Data Understanding
-For this project, I am using RGB satellite images from EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification.
+For this project, I am using RGB satellite images from [EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification](https://zenodo.org/record/7711810#.ZD7rSezMJQL).
 
 This dataset contains 27,000 RGB Satellite Images across 10 classes:
 
@@ -31,12 +31,28 @@ This dataset contains 27,000 RGB Satellite Images across 10 classes:
 There are about 2,500 images per class.
 
 ## Modeling and Evaluation
-I used a variety of Convolutional Neural Networks to classify the image data. Compared to my Baseline Model's performance of 74.1% Test accuracy, my final model was Model 8 with a 78.01% Test accuracy.
+I used a variety of Convolutional Neural Networks to classify the image data. Compared to my Baseline Model's performance of 74.1% Test accuracy, my final model was Model 16 with a 91.46% Test accuracy.
+
+Structure of Final Model (Model 16)- a fine-tuned VGG16 model using augmented training data. 
+<img width="564" alt="FinalModel" src="https://user-images.githubusercontent.com/120589094/232880430-43e121c3-c489-487f-949a-d6167b590e4a.png">
+
+Training/Validation Loss and Accuracy of Final Model
+<img width="637" alt="FinalModel_Loss" src="https://user-images.githubusercontent.com/120589094/232880527-70e5bae4-ab2d-4bbe-91f3-b7202b32ccfd.png">
+
+<img width="612" alt="FinalModel_Accuracy" src="https://user-images.githubusercontent.com/120589094/232880554-8fdd7a58-2c36-4cde-912b-1b6dfe35d01a.png">
+
+Test Prediction Accuracy by Class
+![FinalModel_ConfusionMatrix](https://user-images.githubusercontent.com/120589094/232880674-9485bde3-eecd-478c-817b-a1349c86b3d6.png)
 
 ## Conclusion
 I would recommend to use this land cover classifier tool on images of the same land area over time. By observing where an image’s class has changed over time, TNC could focus deforestation prevention efforts on areas where images are changing from a natural classification (Forest, Herbaceous Vegetation) to a developed classication (Crops, Highways, Industrial, Residential, etc).
 
 Next, I would like to incorporate object detection into this project to help classify multiple areas of land cover within a singular image.
+
+## References
+[1] Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. Patrick Helber, Benjamin Bischke, Andreas Dengel, Damian Borth. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2019.
+
+[2] Introducing EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification. Patrick Helber, Benjamin Bischke, Andreas Dengel. 2018 IEEE International Geoscience and Remote Sensing Symposium, 2018.
 
 ## Repository Structure
 <br>
