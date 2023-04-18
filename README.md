@@ -33,15 +33,16 @@ There are about 2,500 images per class.
 ## Modeling and Evaluation
 I used a variety of Convolutional Neural Networks to classify the image data. Compared to my Baseline Model's performance of 74.1% Test accuracy, my final model was Model 16 with a 91.46% Test accuracy.
 
-Structure of Final Model (Model 16)- a fine-tuned VGG16 model using augmented training data. 
+**Structure of Final Model (Model 16)- a fine-tuned VGG16 model using augmented training data.** 
 <img width="564" alt="FinalModel" src="https://user-images.githubusercontent.com/120589094/232880430-43e121c3-c489-487f-949a-d6167b590e4a.png">
 
-Training/Validation Loss and Accuracy of Final Model
+**Training/Validation Loss and Accuracy of Final Model**
 <img width="637" alt="FinalModel_Loss" src="https://user-images.githubusercontent.com/120589094/232880527-70e5bae4-ab2d-4bbe-91f3-b7202b32ccfd.png">
 
 <img width="612" alt="FinalModel_Accuracy" src="https://user-images.githubusercontent.com/120589094/232880554-8fdd7a58-2c36-4cde-912b-1b6dfe35d01a.png">
 
-Test Prediction Accuracy by Class
+**Test Prediction Accuracy by Class**
+
 ![FinalModel_ConfusionMatrix](https://user-images.githubusercontent.com/120589094/232880674-9485bde3-eecd-478c-817b-a1349c86b3d6.png)
 
 ## Conclusion
@@ -56,9 +57,9 @@ Next, I would like to incorporate object detection into this project to help cla
 
 ## Repository Structure
 <br>
-├── [data](https://github.com/aokdata/Land_Cover_Classification/tree/main/data) <br>
-├── [.gitignore](https://github.com/aokdata/Land_Cover_Classification/blob/main/.gitignore) <br>
-├── [Land_Cover_Classification_Notebook.ipynb](https://github.com/aokdata/Land_Cover_Classification/blob/main/Land_Cover_Classification_Notebook.ipynb) <br>
-├── [README.md](https://github.com/aokdata/Land_Cover_Classification) <br>
+├── [data] (https://github.com/aokdata/Land_Cover_Classification/tree/main/data) <br>
+├── [.gitignore] (https://github.com/aokdata/Land_Cover_Classification/blob/main/.gitignore) <br>
+├── [Land_Cover_Classification_Notebook.ipynb] (https://github.com/aokdata/Land_Cover_Classification/blob/main/Land_Cover_Classification_Notebook.ipynb) <br>
+├── [README.md] (https://github.com/aokdata/Land_Cover_Classification) <br>
 └── presentation.pdf (NOT YET UPLOADED) <br>
 
