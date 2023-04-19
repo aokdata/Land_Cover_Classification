@@ -60,5 +60,5 @@ Next, I would like to incorporate object detection into this project to help cla
 ├── [.gitignore](https://github.com/aokdata/Land_Cover_Classification/blob/main/.gitignore)<br>
 ├── [Land_Cover_Classification_Notebook.ipynb](https://github.com/aokdata/Land_Cover_Classification/blob/main/Land_Cover_Classification_Notebook.ipynb)<br>
 ├── [README.md](https://github.com/aokdata/Land_Cover_Classification)<br>
-└── [presentation.pdf](NOT YET UPLOADED)<br>
+└── [presentation.pdf](https://github.com/aokdata/Land_Cover_Classification/blob/main/presentation.pdf)<br>
 
