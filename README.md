@@ -48,7 +48,7 @@ I used a variety of Convolutional Neural Networks to classify the image data. Co
 ## Conclusion
 I would recommend to use this land cover classifier tool on images of the same land area over time. By observing where an image’s class has changed over time, TNC could focus deforestation prevention efforts on areas where images are changing from a natural classification (Forest, Herbaceous Vegetation) to a developed classication (Crops, Highways, Industrial, Residential, etc).
 
-Next, I would like to incorporate object detection into this project to help classify multiple areas of land cover within a singular image.
+Next, I would work to refine my model to better differientiate between confused classes (i.e. river and highway), possibly through preprocessing. Additionally, I would like to incorporate object detection into this project to help classify multiple areas of land cover within a singular image.
 
 ## References
 [1] Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. Patrick Helber, Benjamin Bischke, Andreas Dengel, Damian Borth. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2019.
