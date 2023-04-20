@@ -2,7 +2,7 @@
 **Aidan O'Keefe**
 
 ## Overview
-A deep learning (neural network) land cover classification project using RGB satellite images (remote sensing) across 10 classes.
+A deep learning (neural network) land cover classification project using RGB satellite images (remote sensing) across 10 classes. This land cover classifier could be used by nature conservancies to monitor deforestation/land development using satellite images to observe if land starts changing from one class (forest, vegetation,etc) to another class (industrial, crop, etc). From a Baseline Model with a performance of 74.1% Test accuracy, I iterated until reaching my final model, a Fine Tuned VGG16 Model with additonal Dense and Dropout Layers with a 91.46% Test accuracy. 
 
 <img width="730" alt="LandCoverClasses" src="https://user-images.githubusercontent.com/120589094/231884775-4add3081-b666-45d7-ac91-dd9b9c0cd501.png">
 *Samples of each of the Land Cover Classes; from top left- Annual Crop, Forest, Herbaceous Vegetation, Highway, Industrial, Pasture, Permanent Crop, Residential, River, Sea or Lake*
@@ -31,7 +31,7 @@ This dataset contains 27,000 RGB Satellite Images across 10 classes:
 There are about 2,500 images per class.
 
 ## Modeling and Evaluation
-I used a variety of Convolutional Neural Networks to classify the image data. Compared to my Baseline Model's performance of 74.1% Test accuracy, my final model was Model 16 with a 91.46% Test accuracy.
+I used a variety of Convolutional Neural Networks to classify the image data. Compared to my Baseline Model's performance of 74.1% Test accuracy, my final model was Model 16 (a Fine Tuned VGG16 Model with additonal Dense and Dropout Layers) with a 91.46% Test accuracy.
 
 **Structure of Final Model (Model 16)- a fine-tuned VGG16 model using augmented training data.** 
 <img width="598" alt="FinalModelArch" src="https://user-images.githubusercontent.com/120589094/233229580-c0aa8d6f-4637-4bc0-a510-bced8f1411e7.png">
