@@ -34,7 +34,7 @@ There are about 2,500 images per class.
 I used a variety of Convolutional Neural Networks to classify the image data. Compared to my Baseline Model's performance of 74.1% Test accuracy, my final model was Model 16 with a 91.46% Test accuracy.
 
 **Structure of Final Model (Model 16)- a fine-tuned VGG16 model using augmented training data.** 
-<img width="616" alt="FinalModelArch" src="https://user-images.githubusercontent.com/120589094/233228716-d3170b44-ad4a-4df4-9677-d9a6b42681b2.png">
+<img width="598" alt="FinalModelArch" src="https://user-images.githubusercontent.com/120589094/233229580-c0aa8d6f-4637-4bc0-a510-bced8f1411e7.png">
 
 **Training/Validation Loss and Accuracy of Final Model**
 <img width="637" alt="FinalModel_Loss" src="https://user-images.githubusercontent.com/120589094/232880527-70e5bae4-ab2d-4bbe-91f3-b7202b32ccfd.png">
